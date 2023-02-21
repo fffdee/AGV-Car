@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mainbg"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/downloadFile"
+
+            android:background="@drawable/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="模式选择："
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            />
+
+        <Spinner
+            android:id="@+id/modeSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:spinnerMode="dialog"
+            android:prompt="@string/mode"
+            android:background="#fff"
+            android:entries="@array/spinner_content"
+
+            />
+
+        <Button
+
+            android:id="@+id/up"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button3"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="前进"
+            />
+        <SeekBar
+            android:id="@+id/sb1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:progress="40"
+            android:max="120"/>
+        <Button
+            android:id="@+id/down"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button3"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="后退"
+            />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/img"
+
+        android:layout_width="560dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/todo1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="当前状态"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#03D3EE"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/T1"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="电量:"
+
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:layout_marginTop="4dp"/>
+        <TextView
+            android:id="@+id/T2"
+            android:text="当前速度:0"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:layout_marginTop="4dp"/>
+        <TextView
+            android:id="@+id/T3"
+            android:text="模式:"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:layout_marginTop="4dp"/>
+        <TextView
+            android:id="@+id/T4"
+            android:text="前进:30 转向:15"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:id="@+id/left"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button3"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="左转"
+            />
+        <SeekBar
+            android:id="@+id/sb2"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:progress="30"
+            android:max="120"/>
+        <Button
+            android:id="@+id/right"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button3"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="右转"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

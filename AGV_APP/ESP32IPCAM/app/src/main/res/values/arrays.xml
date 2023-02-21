@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_content">
+        <item>标准模式</item>
+        <item>神烦模式</item>
+        <item>静默模式</item>
+        <item>建图模式</item>
+    </string-array>
+</resources>
