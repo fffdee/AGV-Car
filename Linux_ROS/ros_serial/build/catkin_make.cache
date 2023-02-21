@@ -1,0 +1,2 @@
+robot_navigation:serial_demo
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/ros_serial/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros_serial/install -G Unix Makefiles

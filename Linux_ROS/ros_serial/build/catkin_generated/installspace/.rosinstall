@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/ros_serial/install/setup.sh

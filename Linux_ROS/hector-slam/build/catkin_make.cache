@@ -1,0 +1,2 @@
+ydlidar_ros_driver-master
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/hector-slam/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/hector-slam/install -G Unix Makefiles
